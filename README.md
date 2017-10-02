@@ -1,2 +1,3 @@
 # hello-world
-Learning Git
+
+This is a good example to start learning Git.

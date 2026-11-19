@@ -1,0 +1,52 @@
+{
+  "job_id": "job_01M7HV57WHEW7SKDH8BHT0MCGN",
+  "tenant_id": "tnt_maharashtra_fin_01",
+  "status": "COMPLETED",
+  "pages_processed": 1,
+  "template_resolved": {
+    "template_id": "pan_card_v1",
+    "scope": "GLOBAL",
+    "inherited_from": "global:kyc_base_v1"
+  },
+  "storage_reference": {
+    "backend": "MINIO_S3",
+    "write_mode": "ASYNC_WRITE_BEHIND",
+    "object_uri": "s3://idp-tnt_maharashtra_fin_01/2026/10/24/job_01M7HV57WHEW7SKDH8BHT0MCGN.pdf"
+  },
+  "extracted_data": {
+    "name": {
+      "value": "D MANIKANDAN",
+      "confidence": 0.98,
+      "source_pages": [
+        1
+      ]
+    },
+    "father_name": {
+      "value": "DURAISAMY",
+      "confidence": 0.98,
+      "source_pages": [
+        1
+      ]
+    },
+    "dob": {
+      "value": "16/07/1986",
+      "confidence": 0.98,
+      "source_pages": [
+        1
+      ],
+      "validation_status": "PASSED_REGEX"
+    },
+    "pan": {
+      "value": "BNZPM2501F",
+      "confidence": 0.98,
+      "source_pages": [
+        1
+      ],
+      "validation_status": "PASSED_REGEX"
+    }
+  },
+  "links": {
+    "self": "/v1/jobs/job_01M7HV57WHEW7SKDH8BHT0MCGN",
+    "telemetry": "/v1/telemetry/jobs/job_01M7HV57WHEW7SKDH8BHT0MCGN"
+  }
+}
